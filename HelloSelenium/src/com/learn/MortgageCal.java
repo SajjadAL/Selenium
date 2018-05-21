@@ -21,7 +21,7 @@ public class MortgageCal {
 		driver.findElement(By.name("param[downpayment]"));
 		
 		WebElement percentRadio= driver.findElement(By.xpath(".//input[@value='percent']"));
-		percentRadio.submit();
+		percentRadio.click();
 				
 		
 		
